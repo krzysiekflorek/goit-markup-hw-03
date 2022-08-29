@@ -111,14 +111,20 @@ li {
   list-style: none;
 }
 
-/* top-section */
+/* main */
 
 .top-section-text {
+  font-family: "Roboto";
   color: #fff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.365;
+  letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
+  margin: 0;
 }
+
 .top-section {
   background-color: #2f303a;
   display: flex;
@@ -128,7 +134,19 @@ li {
   gap: 30px;
   padding: 200px 0;
 }
+
+.top-section-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  padding: 106px 0;
+}
+
 .top-section-button {
+  font-family: "Roboto";
   color: #fff;
   font-weight: 700;
   font-size: 16px;
@@ -139,8 +157,77 @@ li {
   border-radius: 4px;
   cursor: pointer;
   width: 200px;
-  min-height: 50px;
+  height: 50px;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+.top-section-button:hover,
+.top-section-button:focus {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.lorem-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.heading-lorem {
+  font-weight: 700;
+  line-height: 1.143;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+.section-what-we-do {
+  padding-bottom: 94px;
+}
+
+.what-we-do {
+  margin: 0;
+}
+
+.images-what-we-do {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  gap: 30px;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.our-team {
+  align-items: center;
+  margin: 0 215px;
+}
+
+.name {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.description-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+
+.section-bottom {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.186;
+  padding: 94px 0;
+  margin: 0;
+}
+
 /* top section portfolio */
 
 .top-section-list {
@@ -191,13 +278,16 @@ li {
   font-size: 14px;
   line-height: 1.143;
 }
+
 .text-paragraph {
   color: #757575;
   font-size: 14px;
   line-height: 1.72;
   width: 270px;
   height: 75px;
+  margin: 0;
 }
+
 .text-list {
   list-style: none;
   display: flex;
@@ -209,11 +299,16 @@ li {
 /*  service-team */
 
 .service-header {
+  font-family: "Roboto";
   color: #212121;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
+  padding: 0 0 50px;
+  text-align: center;
+  margin: 0 auto;
 }
+
 .service-list {
   list-style: none;
   display: flex;
