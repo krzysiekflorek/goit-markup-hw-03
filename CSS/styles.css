@@ -2,6 +2,9 @@ body {
   font-family: "Raleway", "Roboto", sans-serif;
   color: #757575;
   font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
 }
 .blue-text:hover,
 .blue-text:focus {
@@ -11,10 +14,13 @@ body {
 /* HEADER */
 
 .header-logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.193;
+  line-height: 1.174;
   color: #000;
+  text-decoration: none;
+  padding: 24px 0 25px;
 }
 li {
   list-style: none;

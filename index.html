@@ -14,193 +14,212 @@
     <title>WebStudio</title>
   </head>
   <body>
-    <header>
-      <a href="./index.html" class="header-logo link-no-underline"
-        ><span class="blue-text">Web</span
-        ><span class="black-text">Studio</span></a
-      >
-      <nav>
-        <ul class="header-list">
-          <li class="header-list-item">
-            <a class="header-list-item-link" href="./index.html"
-              ><span class="blue-text">Agencja</span></a
-            >
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-item-link" href="./portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li class="header-list-item">
-            <a class="header-list-item-link" href="./contact.html">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="navigation-list">
-        <li>
-          <a
-            class="contact-link-style link-no-underline blue-text"
-            href="mailto:info@devstudio.com"
-            ><span class="blue-text">info@devstudio.com</span></a
+    <div class="wrapper">
+      <header class="border-header">
+        <div class="menu-flex-container container">
+          <a href="./index.html" class="header-logo link-no-underline"
+            ><span class="blue-text">Web</span
+            ><span class="black-text">Studio</span></a
           >
-        </li>
-        <li>
-          <a
-            class="contact-link-style link-no-underline blue-text"
-            href="tel:+48111111111"
-            >+48 111 111 111</a
+          <div class="menu">
+            <nav>
+              <ul class="header-list">
+                <li class="header-list-item">
+                  <a class="header-list-item-link" href="./index.html"
+                    ><span class="blue-text">Agencja</span></a
+                  >
+                </li>
+                <li class="header-list-item">
+                  <a class="header-list-item-link" href="./portfolio.html"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="header-list-item">
+                  <a class="header-list-item-link" href="./contact.html"
+                    >Kontakt</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <ul class="navigation-list">
+              <li>
+                <a
+                  class="contact-link-style link-no-underline blue-text"
+                  href="mailto:info@devstudio.com"
+                  ><span class="blue-text">info@devstudio.com</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact-link-style link-no-underline blue-text"
+                  href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="top-section">
+          <div class="container top-section-flex">
+            <h1 class="top-section-text w-text">
+              EFEKTYWNE ROZWIĄZANIA <br />
+              DLA WASZEGO BIZNESU
+            </h1>
+            <button class="top-section-button w-text" type="button">
+              Zamów usługę
+            </button>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <ul class="text-list lorem-list">
+              <li>
+                <h4 class="text-header heading-lorem">LOREM IPSUM</h4>
+                <p class="text-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+              </li>
+              <li>
+                <h4 class="text-header heading-lorem">LOREM IPSUM</h4>
+                <p class="text-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+              </li>
+              <li>
+                <h4 class="text-header heading-lorem">LOREM IPSUM</h4>
+                <p class="text-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+              </li>
+              <li>
+                <h4 class="text-header heading-lorem">LOREM IPSUM</h4>
+                <p class="text-paragraph">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  vel arcu sem. Sed non sodales dui. Interdum et malesuada
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section-what-we-do">
+          <div class="what-we-do">
+            <h2 class="service-header text">Czym się zajmujemy</h2>
+            <ul class="service-list text-list images-what-we-do">
+              <li>
+                <img
+                  src="images/image1.jpg"
+                  alt="Programista piszący kod na klawiaturze"
+                  width="370"
+                  height="294"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/image2.jpg"
+                  alt="Programistka korzysta jednocześnie z komputera i smartfonu"
+                  width="370"
+                  height="294"
+                />
+              </li>
+              <li>
+                <img
+                  src="images/image3.jpg"
+                  alt="Programistka trzyma w ręku smartfon z wyświetlaczem na którym jest kolorowy sześciokąt"
+                  width="370"
+                  height="294"
+                />
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section-bottom">
+          <div class="container our-team">
+            <h2 class="team-header service-header text">Nasz zespół</h2>
+            <figure>
+              <img
+                src="images/image1_1.jpg"
+                alt="Męźczyzna w okularach"
+                width="270"
+                height="260"
+              />
+              <figcaption class="description-box">
+                <h4 class="team-card-name">John Doe</h4>
+                <p class="team-card-profession">Product Designer</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/image1_2.jpg"
+                alt="Kobieta w okularach"
+                width="270"
+                height="260"
+              />
+              <figcaption class="description-box">
+                <h4 class="team-card-name">John Doe</h4>
+                <p class="team-card-profession">Frontend Developer</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/image1_3.jpg"
+                alt="Uśmiechnięty męźczyzna spoglądający w lewą stronę"
+                width="270"
+                height="260"
+              />
+              <figcaption class="description-box">
+                <h4 class="team-card-name">John Doe</h4>
+                <p class="team-card-profession">Marketing</p>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="images/image1_4.jpg"
+                alt="Męźczyzna w okularach"
+                width="270"
+                height="260"
+              />
+              <figcaption class="description-box">
+                <h4 class="team-card-name">John Doe</h4>
+                <p class="team-card-profession">UI Designer</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </main>
+      <footer class="footer-box">
+        <div class="container footer-style">
+          <a class="footer-logo link-no-underline" href="index.html"
+            ><span class="blue-text">Web</span>Studio</a
           >
-        </li>
-      </ul>
-    </header>
-
-    <main>
-      <section class="top-section">
-        <h1 class="top-section-text">
-          EFEKTYWNE ROZWIĄZANIA <br />
-          DLA WASZEGO BIZNESU
-        </h1>
-        <button class="top-section-button" type="button">Zamów usługę</button>
-      </section>
-      <section>
-        <ul class="text-list">
-          <li>
-            <h4 class="text-header">LOREM IPSUM</h4>
-            <p class="text-paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h4 class="text-header">LOREM IPSUM</h4>
-            <p class="text-paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h4 class="text-header">LOREM IPSUM</h4>
-            <p class="text-paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-          <li>
-            <h4 class="text-header">LOREM IPSUM</h4>
-            <p class="text-paragraph">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
-              arcu sem. Sed non sodales dui. Interdum et malesuada
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="service-header">Czym się zajmujemy</h2>
-        <ul class="service-list">
-          <li>
-            <img
-              src="images/image1.jpg"
-              alt="Programista piszący kod na klawiaturze"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/image2.jpg"
-              alt="Programistka korzysta jednocześnie z komputera i smartfonu"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="images/image3.jpg"
-              alt="Programistka trzyma w ręku smartfon z wyświetlaczem na którym jest kolorowy sześciokąt"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-
-      <section>
-        <h2 class="team-header">Nasz zespół</h2>
-        <figure>
-          <img
-            src="images/image1_1.jpg"
-            alt="Męźczyzna w okularach"
-            width="270"
-            height="260"
-          />
-          <figcaption>
-            <h4 class="team-card-name">John Doe</h4>
-            <p class="team-card-profession">Product Designer</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="images/image1_2.jpg"
-            alt="Kobieta w okularach"
-            width="270"
-            height="260"
-          />
-          <figcaption>
-            <h4 class="team-card-name">John Doe</h4>
-            <p class="team-card-profession">Frontend Developer</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="images/image1_3.jpg"
-            alt="Uśmiechnięty męźczyzna spoglądający w lewą stronę"
-            width="270"
-            height="260"
-          />
-          <figcaption>
-            <h4 class="team-card-name">John Doe</h4>
-            <p class="team-card-profession">Marketing</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img
-            src="images/image1_4.jpg"
-            alt="Męźczyzna w okularach"
-            width="270"
-            height="260"
-          />
-          <figcaption>
-            <h4 class="team-card-name">John Doe</h4>
-            <p class="team-card-profession">UI Designer</p>
-          </figcaption>
-        </figure>
-      </section>
-    </main>
-    <footer class="footer-box">
-      <a class="footer-logo link-no-underline" href="index.html"
-        ><span class="blue-text">Web</span>Studio</a
-      >
-      <address class="address">
-        <ul class="footer-list">
-          <li>
-            <p class="address-text">m. Warszawa, Aleje Jerozolimskie 21</p>
-          </li>
-          <li>
-            <a
-              class="address-link link-no-underline blue-text"
-              href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a
-              class="address-link link-no-underline blue-text"
-              href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
-    </footer>
+          <address class="address w-text">
+            <ul class="footer-list">
+              <li>
+                <p class="address-text">m. Warszawa, Aleje Jerozolimskie 21</p>
+              </li>
+              <li>
+                <a
+                  class="address-link link-no-underline blue-text"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="address-link link-no-underline blue-text"
+                  href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
