@@ -214,6 +214,23 @@ li {
   padding-bottom: 10px;
 }
 
+.john-doe-style {
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.john-box > figure {
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  margin: 0;
+}
+
 .description-box {
   display: flex;
   flex-direction: column;
@@ -236,19 +253,24 @@ li {
   gap: 30px;
 }
 .buttons-portfolio {
+  font-family: "Roboto";
   color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
+  border-radius: 4px;
   cursor: pointer;
   border-style: none;
 }
-.blue-background:hover {
+
+.button-portofolio:hover,
+.button-portofolio:focus {
   background-color: #2196f3;
   color: #fff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
 /* projects */
 
 .projects {
