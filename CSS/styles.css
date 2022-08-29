@@ -33,6 +33,7 @@ li {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
+  text-decoration: none;
 }
 .header-list-item-link {
   color: #212121;
