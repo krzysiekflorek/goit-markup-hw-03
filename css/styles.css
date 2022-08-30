@@ -2,7 +2,16 @@ body {
   font-family: "Raleway", "Roboto", sans-serif;
   color: #757575;
   font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
 }
+
+:root {
+  --light: #f5f4fa;
+}
+
 .blue-text:hover,
 .blue-text:focus {
   color: #2196f3;
@@ -11,24 +20,72 @@ body {
 /* HEADER */
 
 .header-logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.193;
+  line-height: 1.174;
   color: #000;
+  text-decoration: none;
+  padding: 24px 0 25px;
 }
+
 li {
   list-style: none;
 }
+
 .header-list {
   list-style: none;
   text-decoration: none;
 }
+
 .blue-text {
   color: #2196f3;
 }
+
 .black-text {
   color: #000000;
 }
+
+.menu {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  display: flex;
+  margin: 0;
+  padding: 32px 0;
+}
+
+.menu-flex-container {
+  display: flex;
+  gap: 93px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 46;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0 0 0 380px;
+}
+
+.header-list {
+  list-style-type: none;
+}
+
+.border-header {
+  border-bottom: 1px solid #f5f4fa;
+}
+
 .header-list-item {
   font-weight: 500;
   font-size: 14px;
@@ -48,9 +105,7 @@ li {
   font-size: 14px;
   line-height: 1.172;
 }
-.nav-list {
-  list-style: none;
-}
+
 .contact-link-style {
   font-weight: 500;
   font-size: 14px;
@@ -61,32 +116,47 @@ li {
 /* top-section */
 
 .top-section-text {
+  font-family: "Roboto";
   color: #fff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.365;
+  letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
+  margin: 0;
 }
+
 .top-section {
   background-color: #2f303a;
+  padding: 94px 0;
+  margin: 0 auto;
+}
+
+.top-section-flex {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 30px;
-  padding: 200px 0;
+  padding: 106px 0;
 }
+
 .top-section-button {
+  font-family: "Roboto";
+  letter-spacing: 00.06em;
   color: #fff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   background-color: #2196f3;
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
   width: 200px;
-  min-height: 50px;
+  height: 50px;
 }
 /* top section portfolio */
 
