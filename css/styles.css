@@ -75,7 +75,7 @@ li {
 }
 
 .header-list {
-  list-style-type: none;
+  list-style: none;
 }
 
 .border-header {
@@ -87,10 +87,16 @@ li {
   font-size: 14px;
   line-height: 1.143;
 }
+
+.header-list-item-link:hover,
+.header-list-item-link:focus {
+  color: #2196f3;
+}
+
 .header-list-item-link {
-  color: #212121;
   text-decoration: none;
 }
+
 .link-no-underline {
   text-decoration: none;
   list-style: none;
