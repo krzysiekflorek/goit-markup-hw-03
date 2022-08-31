@@ -78,12 +78,6 @@ body {
   border-bottom: 1px solid #f5f4fa;
 }
 
-/*.header-list-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.143;
-}*/
-
 .header-list-item-link:hover,
 .header-list-item-link:focus {
   color: #2196f3;
