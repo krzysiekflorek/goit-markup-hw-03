@@ -158,26 +158,68 @@ li {
   width: 200px;
   height: 50px;
 }
-/* top section portfolio */
 
-.top-section-list {
-  list-style: none;
+.lorem-list {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.heading-lorem {
+  font-weight: 700;
+  line-height: 1.143;
+  margin: 0;
+  padding: 0 0 10px;
+}
+
+text-paragraph {
+  font-size: 14px;
+  line-height: 1.72;
+  width: 270px;
+  height: 75px;
+  margin: 0;
+}
+
+.section-activity {
+  padding-bottom: 94px;
+}
+
+.activity {
+  margin: 0;
+}
+
+.images-activity {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
   gap: 30px;
+  padding: 0;
+  justify-content: space-between;
 }
-.buttons-portfolio {
-  color: #212121;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  cursor: pointer;
-  border-style: none;
+
+.john-doe-style {
+  display: flex;
+  padding: 0;
+  gap: 30;
+  justify-content: space-between;
+  margin: 0;
 }
-.blue-background:hover {
-  background-color: #2196f3;
-  color: #fff;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+.our-team {
+  align-items: center;
+  margin: 0 215px;
+}
+
+.john-box > figure {
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+  margin: 0;
 }
 
 /* projects */
@@ -208,13 +250,7 @@ li {
   font-size: 14px;
   line-height: 1.143;
 }
-.text-paragraph {
-  color: #757575;
-  font-size: 14px;
-  line-height: 1.72;
-  width: 270px;
-  height: 75px;
-}
+
 .text-list {
   list-style: none;
   display: flex;
@@ -252,6 +288,29 @@ li {
   font-size: 16px;
   line-height: 1.19;
 }
+
+/* top section portfolio */
+
+.top-section-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.buttons-portfolio {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  cursor: pointer;
+  border-style: none;
+}
+.blue-background:hover {
+  background-color: #2196f3;
+  color: #fff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 /* footer  */
 
 .footer-box {
