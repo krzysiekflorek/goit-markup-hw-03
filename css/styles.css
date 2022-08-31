@@ -361,11 +361,24 @@ li {
   background-color: #2f303a;
 }
 .footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
   color: #fff;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.193;
+  text-decoration: none;
+  padding-bottom: 20px;
+  width: 145px;
 }
+
+.footer-style {
+  display: flex;
+  flex-direction: column;
+  width: 246px;
+  gap: 9px;
+}
+
 .footer-list {
   list-style: none;
 }
