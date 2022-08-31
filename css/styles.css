@@ -57,7 +57,7 @@ body {
 
 .nav-list {
   display: flex;
-  gap: 46;
+  gap: 46px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -162,7 +162,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 30;
+  gap: 30px;
   margin: 0 auto;
   padding: 0;
 }
@@ -209,7 +209,7 @@ body {
 .john-doe-style {
   display: flex;
   padding: 0;
-  gap: 30;
+  gap: 30px;
   justify-content: space-between;
   margin: 0;
 }
@@ -252,7 +252,7 @@ body {
 
 .section {
   padding: 94px 0;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .section-bottom {
@@ -333,8 +333,8 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 30;
-  flex-basis: calc((100%-60px) / 3);
+  gap: 30px;
+  flex-basis: calc 100%-60px) / 3);
   padding: 0;
   margin: 0;
 }
