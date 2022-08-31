@@ -85,6 +85,7 @@ body {
 
 .header-list-item-link {
   text-decoration: none;
+  display: flex;
 }
 
 .link-no-underline {
