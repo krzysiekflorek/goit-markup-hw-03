@@ -9,6 +9,11 @@ body {
   width: 1600px;
   margin: 0 auto;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .blue-text:hover,
 .blue-text:focus {
   color: #2196f3;
