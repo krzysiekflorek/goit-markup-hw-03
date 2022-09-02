@@ -324,8 +324,8 @@ body {
   font-size: 26px;
   line-height: 1.193;
   text-decoration: none;
-  padding-bottom: 20px;
-  padding-top: 60px;
+  padding-bottom: 15px;
+  padding-top: 40px;
   align: left;
 }
 
@@ -336,6 +336,7 @@ body {
 }
 .footer-list {
   list-style: none;
+  padding-bottom: 15px;
 }
 .address {
   font-style: normal;
