@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #e5e5e5;
+  width: 1600px;
+  margin: 0 auto;
 }
 .blue-text:hover,
 .blue-text:focus {
@@ -352,11 +354,6 @@ body {
 
 /* all */
 
-.wrapper {
-  width: 1600px;
-  background-color: #fff;
-  margin: 0 auto;
-}
 .container {
   width: 1200px;
   margin: 0 auto;
