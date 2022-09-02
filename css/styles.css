@@ -325,9 +325,8 @@ body {
   line-height: 1.193;
   text-decoration: none;
   padding-bottom: 20px;
+  padding-top: 20px;
   align: left;
-  vertical-align: top;
-  letter-spacing: 3%;
 }
 
 .footer-style {
