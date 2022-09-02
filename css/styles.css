@@ -318,14 +318,18 @@ body {
 }
 .footer-logo {
   font-family: "Raleway";
-  font-style: normal;
+  font-style: bold;
   color: #fff;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.193;
   text-decoration: none;
   padding-bottom: 20px;
+  align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
 }
+
 .footer-style {
   display: flex;
   flex-direction: column;
