@@ -303,6 +303,9 @@ body {
   margin: 0;
   border: 1px solid #eeeeee;
 }
+.block {
+  display: block;
+}
 .description-category {
   padding: 20px 24px;
 }
